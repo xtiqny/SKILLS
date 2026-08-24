@@ -1,0 +1,31 @@
+{
+    "partner": {
+        "name": "湖南聘才猫智能人力科技有限公司",
+        "product": "聘才猫 HR 助手",
+        "homepage": "https://www.pincaimao.com",
+        "contact": ""
+    },
+    "agent": {
+        "name": "pincaimao-hr-agent",
+        "version": "1.0.3",
+        "category": "human-resources"
+    },
+    "model": {
+        "primary": "doubao-seed-2.0-pro",
+        "fallbacks": [
+            "deepseek-v3.2",
+            "glm-4.7"
+        ]
+    },
+    "requirements": {
+        "env": {
+            "required": [
+                "PCM_API_KEY"
+            ]
+        },
+        "binaries": [
+            "curl",
+            "python3"
+        ]
+    }
+}
